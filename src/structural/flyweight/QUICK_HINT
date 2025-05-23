@@ -1,0 +1,5 @@
+# 💡 Flyweight
+
+- Pense em: Mil soldados iguais em um jogo.
+- Reutiliza objetos para economizar memória.
+- Compartilhe o que é igual.

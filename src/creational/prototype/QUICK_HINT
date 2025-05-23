@@ -1,0 +1,5 @@
+# 💡 Prototype
+
+- Pense em: Fazer uma cópia (xerox) de um contrato.
+- Clona objetos já existentes.
+- Use clone() ao invés de new.

@@ -1,0 +1,5 @@
+# 💡 Factory Method
+
+- Pense em: Uma pizzaria que decide o sabor da pizza.
+- Subclasse escolhe o objeto a ser criado.
+- Método de fábrica abstrato.

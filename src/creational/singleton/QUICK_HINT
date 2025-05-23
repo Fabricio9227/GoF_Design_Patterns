@@ -1,0 +1,5 @@
+# 💡 Singleton
+
+- Pense em: Um único diretor na escola.
+- Só pode existir UMA instância.
+- Construtor privado + método estático para acessar.
