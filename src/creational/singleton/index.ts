@@ -1,18 +1,19 @@
+// Importa a classe Logger do arquivo Singleton.ts
 import { Logger } from "./Singleton";
 
-// Tentar obter múltiplas instâncias
+// Obtém a instância única do Logger e registra uma mensagem
 const log1 = Logger.getInstance();
 log1.log("Primeira mensagem");
 
+// Obtém novamente a instância do Logger e registra outra mensagem
 const log2 = Logger.getInstance();
 log2.log("Segunda mensagem");
 
-// Verificando se são a mesma instância
+// Verifica se log1 e log2 são a mesma instância (deve ser true, pois é um Singleton)
 console.log(log1 === log2); // true
 
-// Ao rodar esse arquivo, a saída será essa:
-
-// Logger criado!
-// [2025-05-22T01:00:50.540Z] Primeira mensagem
-// [2025-05-22T01:00:50.541Z] Segunda mensagem
-// true
+// Comentário explicando a saída esperada ao rodar o arquivo:
+// Logger criado!                -> Mostra que a instância foi criada apenas uma vez
+// [data/hora] Primeira mensagem -> Primeira mensagem registrada
+// [data/hora] Segunda mensagem  -> Segunda mensagem registrada
+// true                         -> Confirma que ambas as variáveis apontam para a mesma instância
