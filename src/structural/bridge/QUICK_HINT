@@ -1,0 +1,5 @@
+# 💡 Bridge
+
+- Pense em: Controle remoto universal.
+- Separa abstração da implementação.
+- Duas hierarquias ligadas por uma ponte.

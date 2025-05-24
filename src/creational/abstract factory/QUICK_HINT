@@ -1,0 +1,5 @@
+# 💡 Abstract Factory
+
+- Pense em: Um kit de móveis de um mesmo estilo.
+- Cria famílias de objetos combinando entre si.
+- Troque a fábrica, troque toda a família.
